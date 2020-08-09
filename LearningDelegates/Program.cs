@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LearningDelegates
 {
-    //declare the delegate type
+    //this line defines the delegate type
     //delegates are type safe; checks for signatures i.e. int arg 1 etc
     public delegate string MyDelegate(int arg1, int arg2);
 
@@ -23,6 +23,7 @@ namespace LearningDelegates
         }
         static void Main(string[] args)
         {
+            //delegate functions below serve as a version of the delegate
             MyDelegate f = Func1;
             Console.WriteLine("The number is: " + f(10, 20));
 
