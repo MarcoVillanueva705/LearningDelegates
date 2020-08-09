@@ -4,7 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
+//Delgates provide a way to separate functional
+//areas of your program from one another
+//The program can simply select the appropriate function
+//from a list of locations to perform the calculation at 
+//runtime, and each one is separate from the others
+//Each location would then be responsible for keeping track
+//if its own rules and responsibilities
 namespace LearningDelegates
 {
     //this line defines the delegate type
