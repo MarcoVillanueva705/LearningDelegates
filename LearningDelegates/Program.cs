@@ -38,6 +38,7 @@ namespace LearningDelegates
             Console.WriteLine("The number is: " + f(10, 20));
 
             Console.WriteLine("\nPress Enter To Continue...");
+            //variables in C# notes 
             Console.ReadLine();
         }
     }
